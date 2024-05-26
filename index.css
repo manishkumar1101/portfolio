@@ -16,6 +16,7 @@ nav{
     height: 99px;
     /* position:; */
     /* padding: 0 20px; */
+    color: white;
 
 }
 header{
@@ -58,6 +59,16 @@ nav ul li a:hover{
     top:  20vh;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+.rightsection{
+    /* background-color: green; */
+    height: 20rem;
+    width: 44rem;
+    position: relative; 
+    top: 20vh;
+    /* font-size: 3rem; */
+    justify-content: space-around;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 .button{
     padding: 40px 0px;
 }
@@ -76,15 +87,48 @@ button{
 }
 .rightsection img{
     position: relative;
-    top:-100px;
+    top: -245px;
+    left: 117px;
     height: 37rem;
     width: 32rem;
+
 }
 span{
-    color: rgb(52, 52, 205);;
+    color: rgb(52, 52, 205);
 }
 main hr{
     width: 32rem;
     position: relative;
-    top: -105px;
+    top: -248px;
+    left: 118px;
+
+}
+.leftsection p{
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 20px;
+    padding-top: 40px;
+    font-size: 20px;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* border: 2px solid white; */
+}
+.rsection{
+    /* background-color: red; */
+    height:20rem;
+    width: 44rem;
+    font-size: 3rem;
+    position: relative;
+    top:  20vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.rsection p{
+    position: relative;
+    top: 20px;
+    font-size: 20px;
+    /* border: 2px solid wshite; */
+    padding: 5px 5px;
+}
+div .skill{
+    /* font-size: 50px; */
+    color: rgb(0, 68, 255);
 }
