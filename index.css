@@ -48,7 +48,8 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-around;
     margin:20px;
-    padding-top: 40px;
+    padding-top: 20px;
+    /* overflow: hidden; */
 }
 .leftsection{
     /* background-color: red; */
@@ -87,10 +88,10 @@ button{
 }
 .rightsection img{
     position: relative;
-    top: -245px;
-    left: 117px;
-    height: 37rem;
-    width: 32rem;
+    top: -100px;
+    left: 135px;
+    height: 25rem;
+    width: 28rem;
 
 }
 span{
@@ -99,7 +100,7 @@ span{
 main hr{
     width: 32rem;
     position: relative;
-    top: -248px;
+    top: -105px;
     left: 118px;
 
 }
@@ -177,4 +178,24 @@ div .skill{
     font-size: 1.03rem;
     color: rgb(168, 168, 170);
     /* background-color: #333; */
+}
+main .csection{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding-top: 40px;
+}
+.contact{
+    /* background-color: red; */
+    /* height:20rem;
+    width: 44rem; */
+    font-size: 2rem;
+    position: relative;
+    top:  15vh;
+    /* border: 2px solid;
+    padding: 20px 20px; */
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+}
+.contact span{
+    font-weight: 100;
 }
