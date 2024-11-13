@@ -199,3 +199,68 @@ main .csection{
 .contact span{
     font-weight: 100;
 }
+
+
+
+.contact-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: white;
+}
+
+.contact-form .form-group {
+    margin-bottom: 15px;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: rgb(168, 168, 170);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(15, 15, 43);
+    outline: none;
+    resize: none;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: rgb(52, 52, 205);
+}
+
+.contact-form .submit-btn {
+    display: inline-block;
+    padding: 12px;
+    width: 100%;
+    font-size: 1rem;
+    color: white;
+    background-color: #22226f;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .submit-btn:hover {
+    background-color: rgb(52, 52, 205);
+}
+
+.csection .contact-container {
+    margin: 0 auto;
+    padding-top: 40px;
+}
